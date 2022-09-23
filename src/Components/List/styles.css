@@ -1,0 +1,44 @@
+#container{
+    width: 400px;
+    background-color: aliceblue;
+    padding: .6rem;   
+}
+
+input{
+    width: 100%;
+    padding: .5rem;
+    box-sizing: border-box;
+    margin: .2rem;
+}
+
+ul,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list {
+    margin: 1rem 0;
+}
+
+.list > li {
+    background-color: antiquewhite;
+    padding: .2rem;
+    margin: .5rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    display: flex;
+    justify-content: flex-end;
+    padding: .5rem 0;
+}
+
+.btn > button{
+    padding: .2rem;
+}
+
+h1{
+    text-align: center;
+}
