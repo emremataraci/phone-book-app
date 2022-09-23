@@ -6,15 +6,15 @@ function Contacts() {
     const [contacts, setContacts] = useState ([
         {
             fullname: "Furkan",
-            phone_number:"31"
+            phone_number:"001"
         },
         {
             fullname: "Matar",
-            phone_number:"32"
+            phone_number:"002"
         },
         {
             fullname: "Enes",
-            phone_number:"33"
+            phone_number:"003"
         }
     ]);
 
